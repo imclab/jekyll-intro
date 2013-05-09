@@ -32,7 +32,7 @@
         </section>
         <aside id="sidebar">
           {% capture links %}{% include links.md %}{% endcapture %}
-          {% links | markdownify %}
+          {{ links | markdownify }}
           <a href="https://github.com/itpresidents/jekyll-intro/zipball/master" class="button">
             <small>Download</small>
             .zip file
