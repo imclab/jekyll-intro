@@ -7,7 +7,7 @@ layout: default
 <h4>POSTS</h4>
 
 {% for post in site.posts %}
-<h5>{{ post.title }}</h5>
+<h5><a href="{{ post.permalink }}">{{ post.title }}</a></h5>
 {{ post.content }}
 {{ post.date }}
 {% endfor %}
