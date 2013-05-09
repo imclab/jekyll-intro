@@ -1,0 +1,5 @@
+pygments: true
+permalink: /:year/:month/:day/:title
+exclude: ["readme.md"]
+name: ITP Residents
+description: An example of making a static site with Jekyll
