@@ -31,7 +31,7 @@
           {{ content }}
         </section>
         <aside id="sidebar">
-          {% include links.md %}
+          {% include links.md | markdownify %}
           <a href="https://github.com/itpresidents/jekyll-intro/zipball/master" class="button">
             <small>Download</small>
             .zip file
@@ -48,6 +48,6 @@
       </div>
     </div>
 
-  
+
   </body>
 </html>
