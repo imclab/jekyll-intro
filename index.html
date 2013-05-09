@@ -2,8 +2,17 @@
 layout: default
 ---
 
-
 <h3>Welcome to GitHub Pages.</h3>
+
+<h4>POSTS</h4>
+
+{% for post in site.posts %}
+<h5>{{ post.title }}</h5>
+{{ post.content }}
+{{ post.date }}
+{% endfor %}
+
+
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
